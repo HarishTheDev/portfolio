@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My Professional Portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarishTheDev/portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "HarishTheDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarishTheDev/portfolio/issues"
+  },
+  "homepage": "https://github.com/HarishTheDev/portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20"
+  }
+}
